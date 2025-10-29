@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry's Project Portfolio - Web Apps Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <h1 class="logo">My Portfolio</h1>
+                <div class="nav-right">
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <a href="https://gregcontic.github.io/MyPortfolio/" class="back-button">← Go Back</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Welcome to My Portfolio</h2>
+                <p class="hero-subtitle">Showcasing innovative web applications and creative solutions</p>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="filter-btn" data-filter="tool">Tools</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I'm a passionate web developer who loves creating innovative and user-friendly applications. 
+                   With expertise in modern web technologies, I build solutions that make a difference.</p>
+                <div class="skills">
+                    <span class="skill-tag">HTML/CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">UI/UX Design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>Interested in working together? Let's connect!</p>
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="contact-btn">Email Me</a>
+                    <a href="https://github.com/yourusername" target="_blank" class="contact-btn">GitHub</a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="contact-btn">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Harry Gregson Contic Denesia. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
