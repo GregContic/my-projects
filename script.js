@@ -1,64 +1,64 @@
-// Sample Projects Data - Replace with your actual projects
+// My Projects
 const projects = [
     {
         id: 1,
-        title: "E-Commerce Platform",
-        category: "fullstack",
-        description: "A full-featured online shopping platform with payment integration, user authentication, and admin dashboard.",
-        tags: ["React", "Node.js", "MongoDB", "Stripe"],
-        image: "🛒",
-        demoLink: "https://example.com/demo1",
-        githubLink: "https://github.com/yourusername/project1"
+        title: "Higher Education Platform",
+        category: "frontend",
+        description: "An educational platform designed to provide comprehensive learning resources and interactive content for students.",
+        tags: ["HTML", "CSS", "JavaScript"],
+        image: "🎓",
+        demoLink: "https://gregcontic.github.io/higher/",
+        githubLink: "https://github.com/GregContic/higher"
     },
     {
         id: 2,
-        title: "Task Management App",
-        category: "frontend",
-        description: "A beautiful and intuitive task management application with drag-and-drop functionality and real-time updates.",
-        tags: ["React", "Redux", "Firebase"],
-        image: "✓",
-        demoLink: "https://example.com/demo2",
-        githubLink: "https://github.com/yourusername/project2"
+        title: "NextHireAI",
+        category: "fullstack",
+        description: "AI-powered recruitment platform that streamlines the hiring process with intelligent candidate matching and automated workflows.",
+        tags: ["Next.js", "AI", "Vercel", "TypeScript"],
+        image: "🤖",
+        demoLink: "https://next-hire-ai-sandy.vercel.app/",
+        githubLink: "https://github.com/GregContic/NextHireAI"
     },
     {
         id: 3,
-        title: "Weather Dashboard",
-        category: "frontend",
-        description: "Real-time weather information display with interactive maps, forecasts, and location-based alerts.",
-        tags: ["JavaScript", "API", "CSS3"],
-        image: "🌤️",
-        demoLink: "https://example.com/demo3",
-        githubLink: "https://github.com/yourusername/project3"
+        title: "ConvoHive",
+        category: "fullstack",
+        description: "A collaborative communication platform that brings teams together with real-time messaging and project management features.",
+        tags: ["React", "Next.js", "Vercel", "Real-time"],
+        image: "💬",
+        demoLink: "https://convohive.vercel.app",
+        githubLink: "https://github.com/GregContic/convohive"
     },
     {
         id: 4,
-        title: "Social Media Analytics",
-        category: "fullstack",
-        description: "Comprehensive analytics dashboard for social media metrics with data visualization and insights.",
-        tags: ["Vue.js", "Express", "PostgreSQL", "Chart.js"],
-        image: "📊",
-        demoLink: "https://example.com/demo4",
-        githubLink: "https://github.com/yourusername/project4"
+        title: "Documentor V3",
+        category: "tool",
+        description: "Advanced documentation tool that helps developers create, manage, and share project documentation efficiently.",
+        tags: ["React", "Vercel", "Markdown", "Documentation"],
+        image: "�",
+        demoLink: "https://documentor-v3-1.vercel.app",
+        githubLink: "https://github.com/GregContic"
     },
     {
         id: 5,
-        title: "Code Snippet Manager",
-        category: "tool",
-        description: "Organize and share code snippets with syntax highlighting, tagging, and search functionality.",
-        tags: ["React", "Firebase", "Markdown"],
-        image: "💻",
-        demoLink: "https://example.com/demo5",
-        githubLink: "https://github.com/yourusername/project5"
+        title: "Evict Fire Design",
+        category: "frontend",
+        description: "Modern UI/UX design project showcasing innovative interface designs and user experience patterns.",
+        tags: ["Figma", "UI/UX", "Design", "Prototyping"],
+        image: "�",
+        demoLink: "https://evict-fire-15824630.figma.site/",
+        githubLink: "https://github.com/GregContic"
     },
     {
         id: 6,
-        title: "Portfolio Generator",
-        category: "tool",
-        description: "Automated portfolio website generator with customizable templates and themes.",
-        tags: ["JavaScript", "HTML5", "CSS3"],
-        image: "🎨",
-        demoLink: "https://example.com/demo6",
-        githubLink: "https://github.com/yourusername/project6"
+        title: "Rose Lurch Project",
+        category: "frontend",
+        description: "Creative design project featuring elegant layouts and modern visual aesthetics with interactive elements.",
+        tags: ["Figma", "UI/UX", "Design", "Web Design"],
+        image: "�",
+        demoLink: "https://rose-lurch-25131992.figma.site/",
+        githubLink: "https://github.com/GregContic"
     }
 ];
 
